@@ -16,56 +16,29 @@ interface Tool {
 const tools: Tool[] = [
   {
     id: "japanese-tts",
-    name: "Japanese TTS",
-    description: "Convert Japanese text to natural speech using advanced AI voice synthesis",
+    name: "Speak Japanese",
+    description: "Talk in any language and you will hear it in Japanese!",
     icon: "🗾",
     category: "Speech",
     href: "/tools/japanese-tts",
     isComingSoon: false,
   },
   {
-    id: "text-summarizer",
-    name: "Text Summarizer",
-    description: "Summarize long documents and articles using advanced language models",
-    icon: "📝",
-    category: "Text Processing",
-    href: "/tools/text-summarizer",
-    isComingSoon: true,
-  },
-  {
-    id: "code-generator",
-    name: "Code Generator",
-    description: "Generate code snippets and complete functions from natural language descriptions",
-    icon: "💻",
-    category: "Development",
-    href: "/tools/code-generator",
+    id: "learn-japanese",
+    name: "Learn Japanese",
+    description: "Learn Japanese with AI",
+    icon: "🏫",
+    category: "Language",
+    href: "/tools/learn-japanese",
     isComingSoon: true,
   },
   {
     id: "language-translator",
-    name: "Language Translator",
-    description: "Translate text between multiple languages with context-aware AI",
+    name: "Catch the Essence",
+    description: "Not just a translator, but vibe match any conversation!",
     icon: "🌐",
     category: "Language",
     href: "/tools/language-translator",
-    isComingSoon: true,
-  },
-  {
-    id: "image-analyzer",
-    name: "Image Analyzer",
-    description: "Extract insights and descriptions from images using computer vision",
-    icon: "👁️",
-    category: "Vision",
-    href: "/tools/image-analyzer",
-    isComingSoon: true,
-  },
-  {
-    id: "chat-assistant",
-    name: "Chat Assistant",
-    description: "Intelligent conversational AI for various tasks and questions",
-    icon: "💬",
-    category: "Conversation",
-    href: "/tools/chat-assistant",
     isComingSoon: true,
   },
 ];
@@ -90,7 +63,7 @@ export default function Dashboard() {
                 LLM Wrapper
               </h1>
               <p className="text-gray-600 dark:text-gray-300 mt-1">
-                Your comprehensive AI tools dashboard
+                Re-imagine LLMs with the intuitive tools
               </p>
             </div>
             <div className="flex items-center space-x-4">
@@ -191,7 +164,7 @@ export default function Dashboard() {
       <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-600 dark:text-gray-300">
-            <p>LLM Wrapper - Empowering productivity with AI tools</p>
+            <p>LLM Wrapper - <a href="https://evoke-ai.co" target="_blank" rel="noopener noreferrer">Evoke AI</a>, not just a tool</p>
           </div>
         </div>
       </footer>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LLM Wrapper - AI Tools Dashboard",
+  title: "LLM Wrapper | Evoke AI",
   description: "A comprehensive suite of LLM-powered tools and utilities",
 };
 
